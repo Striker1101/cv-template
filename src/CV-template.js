@@ -19,7 +19,7 @@ export default class Template extends React.Component {
             <Education />
             <Experience />
           </div>
-          <div className="second">
+          <div className="first second">
             <Contact />
             <Skills />
             <Accounts />
