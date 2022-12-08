@@ -5,13 +5,18 @@ export default class Form extends React.Component {
     super(props);
   }
   render() {
-    const { name, startDate, endDate, desc, submit, list } = this.props;
-    console.log(list);
+    const { name, startDate, endDate, desc, submit, list, value } = this.props;
+    let nameLog = "";
+    if (value === "Experience") {
+      nameLog = "Establishment";
+    } else {
+      nameLog = "Institite";
+    }
     return (
       <>
         <div className="formCover">
           <form className="form">
-            <label htmlFor="name">Name of institute</label>
+            <label htmlFor="name">Name of {nameLog}</label>
             <input
               type="text"
               required
@@ -26,6 +31,8 @@ export default class Form extends React.Component {
             <label htmlFor="desc"> Description</label>
             <textarea
               id="text"
+              row="10"
+              column="10"
               onChange={desc}
               defaultValue={list.desc}
             ></textarea>

@@ -7,21 +7,27 @@
   text-align: end;
   background-color: gold;
 }
-.contents {
+.educationContents {
   display: flex;
-  gap: 10px;
   width: 100%;
+  gap:25px
 }
 .step {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  position: relative;
+  margin: 10px;
+
 }
-.textArea, .textName{
+.step.two {
+  width: 50px;
+}
+.textArea,
+.textName {
+  width:300px;
   text-align: center;
-  width: 200px;
   white-space: wrap;
   overflow-wrap: break-word;
-  
 }

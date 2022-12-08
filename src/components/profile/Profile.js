@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-//import pIcture from './assets/pIcture.jpeg'
+import picture from "../assets/picture.jpeg";
 import Formprofile from "./Formprofile";
 
 export default class Profile extends React.Component {
@@ -8,11 +8,11 @@ export default class Profile extends React.Component {
     super();
     this.state = {
       item: {
-        img: "./assets/picture.jpeg",
+        img: picture,
         name: "Kelly White",
-        obj: "Any objectives"
+        obj: "Any objectives",
       },
-      toggle: false
+      toggle: false,
     };
     this.display = this.display.bind(this);
     this.handleChangeObj = this.handleChangeObj.bind(this);
@@ -20,7 +20,7 @@ export default class Profile extends React.Component {
   }
   display() {
     this.setState({
-      toggle: !this.state.toggle
+      toggle: !this.state.toggle,
     });
   }
   handleChangeText = (e) => {
@@ -28,8 +28,8 @@ export default class Profile extends React.Component {
       item: {
         img: this.state.item.img,
         name: e.target.value,
-        obj: this.state.item.obj
-      }
+        obj: this.state.item.obj,
+      },
     });
   };
   handleChangeObj = (e) => {
@@ -37,8 +37,8 @@ export default class Profile extends React.Component {
       item: {
         img: this.state.item.img,
         name: this.state.item.name,
-        obj: e.target.value
-      }
+        obj: e.target.value,
+      },
     });
   };
   render() {
