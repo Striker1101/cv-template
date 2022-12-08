@@ -7,7 +7,10 @@ export default class Accounts extends React.Component {
     super();
     this.state = {
       toggle: false,
-      media: "",
+      media: {
+        url: "",
+        map: ""
+      },
       items: []
     };
     this.display = this.display.bind(this);
@@ -20,16 +23,37 @@ export default class Accounts extends React.Component {
     });
   }
   handleChangeMedia(e) {
+    let _map = "";
+    if (this.state.media.url.includes("instagram")) {
+      _map = "instagram";
+    } else if (this.state.media.url.includes("facebook")) {
+      _map = "facebook";
+    } else if (this.state.media.url.includes("snapchat")) {
+      _map = "snapchat";
+    } else if (this.state.media.url.includes("whatsapp")) {
+      _map = "whatsapp";
+    } else if (this.state.media.url.includes("twitter")) {
+      _map = "twitter";
+    } else {
+      _map = "others";
+    }
     this.setState({
-      media: e.target.value
+      media: {
+        url: e.target.value,
+        map: _map
+      }
     });
   }
   onSubmit(e) {
     e.preventDefault();
-    console.log("boom");
+    document.querySelector(".form").reset();
+
     this.setState({
       items: this.state.items.concat(this.state.media),
-      media: ""
+      media: {
+        url: "",
+        map: ""
+      }
     });
   }
   render() {
@@ -39,8 +63,8 @@ export default class Accounts extends React.Component {
         <Media items={this.state.items} />
         {this.state.toggle && (
           <Form
-            media={this.state.media}
-            submit={this.submit}
+            media={this.state.media.url}
+            submit={this.onSubmit}
             handle={this.handleChangeMedia}
           />
         )}
