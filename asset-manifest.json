@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Striker1101/cv-template.github.io/%7Bname-of-your-repo%7D/static/css/main.7c4926cf.css",
+    "main.js": "/Striker1101/cv-template.github.io/%7Bname-of-your-repo%7D/static/js/main.7a4abc60.js",
+    "static/js/703.fc68c121.chunk.js": "/Striker1101/cv-template.github.io/%7Bname-of-your-repo%7D/static/js/703.fc68c121.chunk.js",
+    "static/js/756.f3f40785.chunk.js": "/Striker1101/cv-template.github.io/%7Bname-of-your-repo%7D/static/js/756.f3f40785.chunk.js",
+    "static/media/picture.jpeg": "/Striker1101/cv-template.github.io/%7Bname-of-your-repo%7D/static/media/picture.c1f0fecf6642d0e0dbbc.jpeg",
+    "static/media/instagram-icon.svg": "/Striker1101/cv-template.github.io/%7Bname-of-your-repo%7D/static/media/instagram-icon.ff0d2e5b78a841746025447f6b4d0b33.svg",
+    "static/media/snapchat-icon.svg": "/Striker1101/cv-template.github.io/%7Bname-of-your-repo%7D/static/media/snapchat-icon.436cd28b523fa4057c75b5782d0b054e.svg",
+    "static/media/facebook-icon.svg": "/Striker1101/cv-template.github.io/%7Bname-of-your-repo%7D/static/media/facebook-icon.96aae638f64819737959c12664ce19c7.svg",
+    "static/media/whatsapp-icon.svg": "/Striker1101/cv-template.github.io/%7Bname-of-your-repo%7D/static/media/whatsapp-icon.98b65f72b237fdc7fd08ae000cffdfc9.svg",
+    "static/media/web-icon.svg": "/Striker1101/cv-template.github.io/%7Bname-of-your-repo%7D/static/media/web-icon.c0605fe9320b855f07abc812b1e1a12a.svg",
+    "static/media/contacts-icon.svg": "/Striker1101/cv-template.github.io/%7Bname-of-your-repo%7D/static/media/contacts-icon.d0cddf29b5c248f8b0a168d3a3083691.svg",
+    "index.html": "/Striker1101/cv-template.github.io/%7Bname-of-your-repo%7D/index.html",
+    "static/media/address-icon.svg": "/Striker1101/cv-template.github.io/%7Bname-of-your-repo%7D/static/media/address-icon.aa3e86be79bea353644817e8d98a5a74.svg",
+    "static/media/twitter-icon.svg": "/Striker1101/cv-template.github.io/%7Bname-of-your-repo%7D/static/media/twitter-icon.f3dd40ad5c26deba5ef01c19d0c9c0fc.svg",
+    "main.7c4926cf.css.map": "/Striker1101/cv-template.github.io/%7Bname-of-your-repo%7D/static/css/main.7c4926cf.css.map",
+    "main.7a4abc60.js.map": "/Striker1101/cv-template.github.io/%7Bname-of-your-repo%7D/static/js/main.7a4abc60.js.map",
+    "703.fc68c121.chunk.js.map": "/Striker1101/cv-template.github.io/%7Bname-of-your-repo%7D/static/js/703.fc68c121.chunk.js.map",
+    "756.f3f40785.chunk.js.map": "/Striker1101/cv-template.github.io/%7Bname-of-your-repo%7D/static/js/756.f3f40785.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c4926cf.css",
+    "static/js/main.7a4abc60.js"
+  ]
+}
